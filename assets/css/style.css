@@ -552,7 +552,7 @@ border: none;
 .chart span{
 	margin-top: -19px;
 	font-size:18px;
-	color: #2f2f2f;
+	color: #ffffff;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
 }
@@ -561,7 +561,7 @@ border: none;
 	margin-left: 0.1em;
 	font-size: .8em;
 	font-size:18px;
-	color: #2f2f2f;
+	color: #ffffff;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
 }
@@ -579,7 +579,7 @@ border: none;
 	margin-top: 22px;
 	text-align:center;
 	font-size:20px;
-	color: #2f2f2f;
+	color: #ffffff;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 }
@@ -588,7 +588,7 @@ border: none;
 	margin-top: 13px;
 	text-align:center;
 	font-size:13px;
-	color: #2f2f2f;
+	color: #ffffff;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 }
