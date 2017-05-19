@@ -27,12 +27,17 @@ $mail->Body    = "<b>imie :</b>".$name."<br>
                 <b>nazwisko :</b>".$lastname."<br>
                 <b>email :</b>".$email."<br>
                 <b>wiadomosc</b>".$message;
+if($mail->send())
+{
 
-if(!$mail->send()) {
-   echo $mail->ErrorInfo;
-} else {
-    header('Location:index.html');
+    echo "<script>alert('Wiadomość została wysłana')</script>";
 }
+else
+{
+    echo "<script>alert('Nie można wysłać wiadomości skontatuj się z administratorem strony')</script>";
+}
+echo "<script>location='http://www.danielbednarczuk.pl'</script>";
+
 
 
 
